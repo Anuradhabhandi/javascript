@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+
+<p id="demo">JavaScript can change HTML content.</p>
+<p id="demo1">hello world</p>
+<img id="myImage" src="./assets/download.jpg" alt="myimage">
+<p id="demo2">i am frontend developer from as digital solutions</p>
+<!-- changing the text after clicking the button by using innerhtml -->
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+
+<!-- changing the sytle color by using style attribute -->
+<button type="button" onclick="document.getElementById('demo1').style.color='red'">open me</button>
+<button type="button" onclick="document.getElementById('demo1').style.fontSize='80px'">large size</button>
+
+<!-- chnge the image by clicking the button  -->
+<button type="button" onclick="document.getElementById('myImage').src='assets/download.jpg'">click me</button>
+
+<!-- change the text to display block and none -->
+
+<button type="button" onclick="document.getElementById('demo2').style.display='none'">click me to hide</button>
+
+<button type="button" onclick="document.getElementById('demo2').style.display='block'">click me to unhide</button>
+
+</body>
+</html>
